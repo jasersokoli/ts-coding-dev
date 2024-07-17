@@ -16,9 +16,9 @@ paths:
                 items:
                   type: object
                   properties:
-                    message:
+                    text:
                       type: string
-                    user:
+                    status:
                       type: string
                     timestamp:
                       type: string
@@ -32,9 +32,7 @@ paths:
             schema:
               type: object
               properties:
-                message:
-                  type: string
-                user:
+                text:
                   type: string
       responses:
         '200':
